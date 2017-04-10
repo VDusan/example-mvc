@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dusan Vlahovic",
+      "email": "dusanvl87@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "Framework",
+      "Quantox"
+    ],
+    "psr-4": {
+      "Quantox\\": "/Quantox",
+      "Framework\\": "/Framework"
+    }
+  }
+}
